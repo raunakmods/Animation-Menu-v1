@@ -16,16 +16,13 @@ https://github.com/raunakmods/HTextView
 
 
 # HOW TO ADD MENU??
+IF YOU USED LGL MENU THEN YOU MUST BE FAMILIAR WITH CODEs
+https://github.com/LGLTeam/Android-Mod-Menu/wiki/Making-changes-to-the-APK-(PC)
 
-
+Example::
 Invoke code:invoke-static {p0}, Lcom/Raunak/mods/MainActivity;->Start(Landroid/content/Context;)V
 
-Android-xml code: 
-"<service android:name="com.Raunak.mods.Menu" android:enabled="true"
-                   android:exported="false" android:stopWithTask="true" />"
 
-Android-xml Permission: 
-"<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>"
 
 # Preview
 https://user-images.githubusercontent.com/55938607/151557072-2aa0840f-d992-4452-a9f3-951d57d70e09.mp4
